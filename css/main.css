@@ -238,6 +238,18 @@ h3.overlay {
 .contact-icon {
 	width: px;
 }
+.employer-social li {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 44px;
+	height: 44px;
+	outline: 1px solid red;
+}
+.employer-social li:hover {
+	background-color: royalblue;
+	border-radius: 50%;
+}
 .social-link {
 	width: 20px;
 	height: 20px;
@@ -285,10 +297,13 @@ h3.overlay {
 .employer-social {
 	margin-bottom: 24px;
 	display: flex;
-	padding-left: 44px;
+	/*padding-left: 44px;*/
+	margin-left: 32px;
+	margin-right: 32px;
 }
+
 .employer-social li {
-	margin-right: 34px;
+	margin-right: 10px;
 }
 .employer-social li:last-child {
 	margin-right: 0;
