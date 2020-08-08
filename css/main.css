@@ -246,9 +246,15 @@ h3.overlay {
 	height: 44px;
 	outline: 1px solid red;
 }
+.employer-social li a {
+	display: block;
+	width: 20px;
+	height: 20px;
+}
 .employer-social li:hover {
 	background-color: royalblue;
 	border-radius: 50%;
+	cursor: pointer;
 }
 .social-link {
 	width: 20px;
