@@ -37,6 +37,7 @@ p,
 .con-link {
 	color: var(--sec-txt-color);
 }
+
 /*.team {
 	background-color: var(--sec-bg-color);
 }*/
@@ -86,20 +87,37 @@ span {
 .con-link:focus {
 	color: var(--accent-color);
 }
+.contact-icon {
+	margin-right: 10px;
+	vertical-align: middle;
+	fill: currentColor;
+}
+/*.contact-icon:hover,
+.contact-icon:focus {
+	fill: white;
+}*/
 
 /* hero */
 .overlay-banner {
 	/*padding-bottom: 94px;*/
+
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-color: grey;
+	background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/hero.jpg");
+	max-width: 1600px;
+	background-repeat: no-repeat;
+	margin-right: auto;
+	margin-left: auto;
+	/*background-image: url("../images/hero.jpg");
+	background-image: linear-gradient(to right, rgba(255, 0, 0, 0.4), rgba(0, 0, 255, 0.4));*/
 }
 .overlay-container {
 	text-align: center;
 	/*padding-top: 200px;
 	padding-bottom: 200px;
 	background: grey;*/
-	outline: 2px solid tomato;
+	/*outline: 2px solid tomato;*/
 	/*height: 600px;*/
 	width: 1600px;
 	margin-left: auto;
@@ -156,6 +174,10 @@ button {
 	margin-top: 0px;
 	margin-bottom: 10px;
 }
+.feature-icon {
+	width: 70px;
+	height: 70px;
+}
 .feature-desc {
 	font-size: 14px;
 	line-height: 1.71;
@@ -199,6 +221,16 @@ h3.overlay {
 .team h3 {
 	margin-bottom: 10px;
 }
+/* svg logo*/
+.contact-icon {
+	width: px;
+}
+.social-link {
+	width: 20px;
+	height: 20px;
+	fill: red;
+}
+
 .regular-customers .container h2 {
 	/*padding-top: 94px;*/
 }
