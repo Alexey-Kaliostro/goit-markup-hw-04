@@ -92,10 +92,6 @@ span {
 	vertical-align: middle;
 	fill: currentColor;
 }
-/*.contact-icon:hover,
-.contact-icon:focus {
-	fill: white;
-}*/
 
 /* hero */
 .overlay-banner {
@@ -258,7 +254,6 @@ h3.overlay {
 	border-radius: 50%;
 	cursor: pointer;
 }
-
 .social-link {
 	width: 20px;
 	height: 20px;
