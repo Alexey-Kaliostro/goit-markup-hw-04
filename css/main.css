@@ -251,15 +251,21 @@ h3.overlay {
 	width: 20px;
 	height: 20px;
 }
+
 .employer-social li:hover {
-	background-color: royalblue;
+	background-color: var(--accent-color);
+
 	border-radius: 50%;
 	cursor: pointer;
 }
+
 .social-link {
 	width: 20px;
 	height: 20px;
-	fill: red;
+	fill: #afb1b8;
+}
+.employer-social .social-link:hover {
+	fill: white;
 }
 
 .regular-customers .container h2 {
