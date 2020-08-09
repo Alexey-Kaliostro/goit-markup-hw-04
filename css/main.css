@@ -542,23 +542,30 @@ footer a {
 .inventions-item a img {
 	display: block;
 }
-.customers-logo {
+/*.customers-logo  {
 	display: flex;
+}*/
+.customer-item {
+	display: inline-flex;
+	vertical-align: middle;
 }
-
-.customers-logo li {
+.customer-item a {
+	width: 170px;
+	height: 90px;
+}
+/*.customers-logo li {
 	width: 170px;
 	height: 90px;
 	margin-right: 30px;
-}
-.customer-svg {
+}*/
+/*.customer-svg {
 	min-height: 90px;
 	display: flex;
-}
-.customer-link {
+}*/
+/*.customer-link {
 	width: 170px;
 	height: 90px;
-}
+}*/
 .customers-logo :last-child {
 	margin-right: 0px;
 }
