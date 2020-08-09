@@ -95,8 +95,6 @@ span {
 
 /* hero */
 .overlay-banner {
-	/*padding-bottom: 94px;*/
-
 	padding-top: 200px;
 	padding-bottom: 200px;
 	background-color: grey;
@@ -110,11 +108,6 @@ span {
 }
 .overlay-container {
 	text-align: center;
-	/*padding-top: 200px;
-	padding-bottom: 200px;
-	background: grey;*/
-	/*outline: 2px solid tomato;*/
-	/*height: 600px;*/
 	width: 1600px;
 	margin-left: auto;
 	margin-right: auto;
@@ -244,8 +237,6 @@ h3.overlay {
 
 .employer-social li a {
 	display: block;
-	/*width: 20px;
-	height: 20px;*/
 	width: 44px;
 	height: 44px;
 	display: flex;
@@ -292,7 +283,6 @@ h3.overlay {
 }
 .team {
 	display: flex;
-	/*padding-bottom: 94px;*/
 }
 .team li {
 	margin-right: 30px;
@@ -313,7 +303,6 @@ h3.overlay {
 .employer-social {
 	margin-bottom: 24px;
 	display: flex;
-	/*padding-left: 44px;*/
 	margin-left: 32px;
 	margin-right: 32px;
 }
@@ -464,9 +453,6 @@ footer a {
 	letter-spacing: 0.03em;
 }
 
-/* -= Home Work 3 =- */
-/* -= blocks & flexes =- */
-
 .container {
 	width: 1200px;
 	padding-left: 15px;
@@ -537,19 +523,14 @@ footer a {
 .inventions-item a img {
 	display: block;
 }
-/*.customers-logo  {
-	display: flex;
-}*/
+
 .customers-logo li {
 	margin-right: 30px;
 }
 .customers-logo :last-child {
 	margin-right: 0px;
 }
-/*.customer-item {
-	display: inline-flex;
-	vertical-align: middle;
-}*/
+
 .customers-logo {
 	display: flex;
 }
@@ -561,23 +542,17 @@ footer a {
 	align-items: center;
 	justify-content: center;
 }
-/*.customers-logo li {
-	width: 170px;
-	height: 90px;
-	margin-right: 30px;
-}*/
-/*.customer-svg {
-	min-height: 90px;
-	display: flex;
-}*/
-/*.customer-link {
-	width: 170px;
-	height: 90px;
-}*/
+
 .customers-logo :last-child {
 	margin-right: 0px;
 }
-.custom {
+.customer-link {
+	fill: #afb1b8;
+}
+.customer-link:hover {
+	fill: red;
+}
+. .custom {
 	padding-left: 15px;
 	padding-right: 15px;
 }
@@ -616,13 +591,6 @@ footer {
 	align-items: baseline;
 	/*align-items: center;*/
 }
-
-/*.fake-picture {
-	width: 270px;
-	height: 120px;
-	margin-bottom: 30px;
-	background-color: lightgrey;
-}*/
 
 .filters-list button {
 	padding-top: 6px;
