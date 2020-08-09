@@ -274,6 +274,10 @@ h3.overlay {
 }
 .customers-logo li {
 	/*outline: 1px solid #afb1b8;*/
+	/*border: 1px solid #afb1b8;*/
+	/*border-radius: 4px;*/
+}
+.customer-svg {
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 }
@@ -536,8 +540,8 @@ footer a {
 }
 .customer-item a {
 	display: block;
-	width: 168px;
-	height: 88px;
+	width: 170px;
+	height: 90px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -550,7 +554,7 @@ footer a {
 	fill: #afb1b8;
 }
 .customer-link:hover {
-	fill: red;
+	fill: var(--accent-color);
 }
 . .custom {
 	padding-left: 15px;
