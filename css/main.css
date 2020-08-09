@@ -553,10 +553,22 @@ footer a {
 .customer-link {
 	fill: #afb1b8;
 }
-.customer-link:hover {
+/*.customer-link:hover {
 	fill: var(--accent-color);
+}*/
+/*.customer-svg svg:hover {
+	fill: yellow;
 }
-. .custom {
+*/
+/*.customer-item a:hover svg {
+	fill: yellow;
+}*/
+.customer-link:hover,
+.customer-svg:hover {
+	fill: yellow;
+	border-color: yellow;
+}
+.custom {
 	padding-left: 15px;
 	padding-right: 15px;
 }
