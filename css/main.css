@@ -567,10 +567,9 @@ ul {
 }
 .customers-logo {
 	display: flex;
-
-	/*padding-bottom: 94px;*/
-	/*outline: 1px solid black;*/
 }
+/*padding-bottom: 94px;*/
+/*outline: 1px solid black;*/
 .customers-logo li {
 	display: inline-table;
 
@@ -578,12 +577,12 @@ ul {
 	height: 90px;
 	margin-right: 30px;
 }
-.customer-svg {
+/*.customer-svg {
 	align-items: center;
 	min-height: 90px;
 	display: flex;
 	justify-content: center;
-}
+}*/
 .customer-link {
 	background-position: center;
 	width: 170px;
