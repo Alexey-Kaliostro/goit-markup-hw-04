@@ -270,24 +270,6 @@ h3.overlay {
 .list-item a:hover svg {
 	fill: white;
 }
-/*.employer-social a:hover {
-	background-color: var(--accent-color);
-	border-radius: 50%;
-	fill: white;
-}*/
-/*.employer-social svg:hover {
-	fill: white;
-}*/
-
-/*.employer-social li:hover {
-	background-color: var(--accent-color);
-	
-	border-radius: 50%;
-	cursor: pointer;
-}
-.employer-social .social-link:hover {
-	fill: white;
-}*/
 
 .social-icon {
 	width: 20px;
@@ -502,11 +484,7 @@ footer a {
 .head {
 	height: 80px;
 }
-/*.main-nav,
-a,
-ul {
-	display: flex;
-}*/
+
 .main-nav,
 .page-nav {
 	display: flex;
@@ -567,23 +545,17 @@ ul {
 .customers-logo {
 	display: flex;
 }
-/*padding-bottom: 94px;*/
-/*outline: 1px solid black;*/
-.customers-logo li {
-	display: inline-table;
 
+.customers-logo li {
 	width: 170px;
 	height: 90px;
 	margin-right: 30px;
 }
-/*.customer-svg {
-	align-items: center;
+.customer-svg {
 	min-height: 90px;
 	display: flex;
-	justify-content: center;
-}*/
+}
 .customer-link {
-	background-position: center;
 	width: 170px;
 	height: 90px;
 }
@@ -626,12 +598,12 @@ footer {
 	/*align-items: center;*/
 }
 
-.fake-picture {
+/*.fake-picture {
 	width: 270px;
 	height: 120px;
 	margin-bottom: 30px;
 	background-color: lightgrey;
-}
+}*/
 
 .filters-list button {
 	padding-top: 6px;
