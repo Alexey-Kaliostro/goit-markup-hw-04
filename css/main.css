@@ -551,14 +551,20 @@ footer a {
 .customers-logo :last-child {
 	margin-right: 0px;
 }
-.customer-item {
+/*.customer-item {
 	display: inline-flex;
 	vertical-align: middle;
+}*/
+.customers-logo {
+	display: flex;
 }
-
 .customer-item a {
+	display: block;
 	width: 170px;
 	height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 /*.customers-logo li {
 	width: 170px;
