@@ -257,6 +257,13 @@ h3.overlay {
 	width: 44px;
 	height: 44px;
 }
+/*.soclink:hover {
+	background-color: var(--accent-color);
+	border-radius: 50%;
+}
+.soclink :hover {
+	fill: white;
+}*/
 .list-item a:hover {
 	background-color: var(--accent-color);
 	border-radius: 50%;
@@ -566,7 +573,7 @@ ul {
 }
 .customers-logo li {
 	display: inline-table;
-	/*outline: 1px solid black;*/
+
 	width: 170px;
 	height: 90px;
 	margin-right: 30px;
@@ -574,13 +581,14 @@ ul {
 .customer-svg {
 	align-items: center;
 	min-height: 90px;
-}
-
-.customer-svg {
 	display: flex;
 	justify-content: center;
 }
-
+.customer-link {
+	background-position: center;
+	width: 170px;
+	height: 90px;
+}
 .customers-logo :last-child {
 	margin-right: 0px;
 }
