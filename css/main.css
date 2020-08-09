@@ -597,20 +597,35 @@ footer {
 .footer-middle {
 	flex-basis: 206px;
 }
+
 .footer-social {
 	display: flex;
 }
 .footer-social li {
 	width: 44px;
+	height: 44px;
 	margin-right: 10px;
+	background-color: #ffffff1a;
+	border-radius: 50%;
+	display: flex;
+	padding-left: 12px;
+	padding-right: 12px;
+	padding-bottom: 12px;
+	padding-top: 12px;
 }
 .footer-social li:last-child {
 	margin-right: 0px;
 }
+
 .footer-right {
 	flex-basis: 570px;
 }
-
+/*.social-link {
+	width: 44px;
+	height: 44px;
+	background-color: #ffffff;
+	border-radius: 50%;
+}*/
 .footer {
 	display: flex;
 	justify-content: space-between;
