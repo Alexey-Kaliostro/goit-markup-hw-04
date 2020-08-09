@@ -613,6 +613,12 @@ footer {
 	padding-bottom: 12px;
 	padding-top: 12px;
 }
+.footer-social li:hover {
+	background-color: var(--accent-color);
+}
+.social-icon {
+	fill: white;
+}
 .footer-social li:last-child {
 	margin-right: 0px;
 }
