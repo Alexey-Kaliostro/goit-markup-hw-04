@@ -545,13 +545,15 @@ footer a {
 	display: flex;
 	align-items: center;
 	justify-content: center;
+	color: #afb1b8;
 }
 
 .customers-logo :last-child {
 	margin-right: 0px;
 }
 .customer-link {
-	fill: #afb1b8;
+	/*fill: #afb1b8;*/
+	fill: currentColor;
 }
 /*.customer-link:hover {
 	fill: var(--accent-color);
@@ -563,9 +565,13 @@ footer a {
 /*.customer-item a:hover svg {
 	fill: yellow;
 }*/
-.customer-link:hover,
+/*.customer-link:hover,
 .customer-svg:hover {
 	fill: var(--accent-color);
+	border-color: var(--accent-color);
+}*/
+.customer-svg:hover {
+	color: var(--accent-color);
 	border-color: var(--accent-color);
 }
 .custom {
