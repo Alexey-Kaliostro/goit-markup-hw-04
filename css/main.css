@@ -616,7 +616,7 @@ footer {
 .footer-social li:hover {
 	background-color: var(--accent-color);
 }
-.social-icon {
+.social-link .social-icon {
 	fill: white;
 }
 .footer-social li:last-child {
