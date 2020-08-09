@@ -565,8 +565,8 @@ footer a {
 }*/
 .customer-link:hover,
 .customer-svg:hover {
-	fill: yellow;
-	border-color: yellow;
+	fill: var(--accent-color);
+	border-color: var(--accent-color);
 }
 .custom {
 	padding-left: 15px;
