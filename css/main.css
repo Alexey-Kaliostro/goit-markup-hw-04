@@ -545,10 +545,17 @@ footer a {
 /*.customers-logo  {
 	display: flex;
 }*/
+.customers-logo li {
+	margin-right: 30px;
+}
+.customers-logo :last-child {
+	margin-right: 0px;
+}
 .customer-item {
 	display: inline-flex;
 	vertical-align: middle;
 }
+
 .customer-item a {
 	width: 170px;
 	height: 90px;
