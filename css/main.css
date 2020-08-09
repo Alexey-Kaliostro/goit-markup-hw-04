@@ -242,25 +242,51 @@ h3.overlay {
 	height: 44px;
 	outline: 1px solid red;
 }
+
 .employer-social li a {
 	display: block;
-	width: 20px;
-	height: 20px;
+	/*width: 20px;
+	height: 20px;*/
+	width: 44px;
+	height: 44px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
-
-.employer-social li:hover {
+.soclink {
+	width: 44px;
+	height: 44px;
+}
+.list-item a:hover {
 	background-color: var(--accent-color);
+	border-radius: 50%;
+}
+.list-item svg:hover {
+	fill: white;
+}
+/*.employer-social a:hover {
+	background-color: var(--accent-color);
+	border-radius: 50%;
+	fill: white;
+}*/
+/*.employer-social svg:hover {
+	fill: white;
+}*/
 
+/*.employer-social li:hover {
+	background-color: var(--accent-color);
+	
 	border-radius: 50%;
 	cursor: pointer;
 }
-.social-link {
+.employer-social .social-link:hover {
+	fill: white;
+}*/
+
+.social-icon {
 	width: 20px;
 	height: 20px;
 	fill: #afb1b8;
-}
-.employer-social .social-link:hover {
-	fill: white;
 }
 
 .regular-customers .container h2 {
