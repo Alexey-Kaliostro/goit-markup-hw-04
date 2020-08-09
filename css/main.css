@@ -256,13 +256,7 @@ h3.overlay {
 	width: 44px;
 	height: 44px;
 }
-/*.soclink:hover {
-	background-color: var(--accent-color);
-	border-radius: 50%;
-}
-.soclink :hover {
-	fill: white;
-}*/
+
 .list-item a:hover {
 	background-color: var(--accent-color);
 	border-radius: 50%;
@@ -288,6 +282,7 @@ h3.overlay {
 	padding-top: 94px;
 }
 .customers-logo li {
+	/*outline: 1px solid #afb1b8;*/
 	border: 1px solid #afb1b8;
 	border-radius: 4px;
 }
@@ -560,8 +555,8 @@ footer a {
 }
 .customer-item a {
 	display: block;
-	width: 170px;
-	height: 90px;
+	width: 168px;
+	height: 88px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -581,6 +576,10 @@ footer a {
 }*/
 .customers-logo :last-child {
 	margin-right: 0px;
+}
+.custom {
+	padding-left: 15px;
+	padding-right: 15px;
 }
 
 footer {
