@@ -251,7 +251,9 @@ h3.overlay {
 	width: 44px;
 	height: 44px;
 }
-
+.list-item a:focus {
+	outline: none;
+}
 .list-item a:hover,
 .list-item a:focus {
 	background-color: var(--accent-color);
@@ -388,6 +390,7 @@ footer a {
 	background-color: var(--features-bg-color);
 	color: var(--main-txt-color);
 }
+
 .filters button:focus,
 .filters button:hover {
 	background-color: var(--accent-color);
@@ -582,7 +585,14 @@ footer a {
 	fill: var(--accent-color);
 	border-color: var(--accent-color);
 }*/
-.customer-svg:hover {
+/*.customer-svg:hover {
+	color: var(--accent-color);
+	border-color: var(--accent-color);
+}*/
+.customer-svg:focus {
+	outline: none;
+}
+.customer-svg:focus {
 	color: var(--accent-color);
 	border-color: var(--accent-color);
 }
@@ -621,7 +631,21 @@ footer {
 	padding-bottom: 12px;
 	padding-top: 12px;
 }
-.footer-social li:hover {
+
+/*.footer-social li:hover {
+	background-color: var(--accent-color);
+}*/
+/*.middle-item:hover {
+	background-color: var(--accent-color);
+}
+.middle-item:focus {
+	background-color: var(--accent-color);
+}*/
+.social-link {
+	width: 44px;
+	height: 44px;
+}
+.social-link:hover {
 	background-color: var(--accent-color);
 }
 .social-link .social-icon {
