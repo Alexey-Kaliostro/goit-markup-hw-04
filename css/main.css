@@ -81,6 +81,10 @@ span {
 .nav-link.active {
 	color: var(--accent-color);
 }
+.con-link {
+	display: flex;
+	align-items: center;
+}
 .nav-link:hover,
 .nav-link:focus,
 .con-link:hover,
@@ -89,7 +93,7 @@ span {
 }
 .contact-icon {
 	margin-right: 10px;
-	vertical-align: middle;
+	/*vertical-align: middle;*/
 	fill: currentColor;
 }
 
@@ -248,11 +252,13 @@ h3.overlay {
 	height: 44px;
 }
 
-.list-item a:hover {
+.list-item a:hover,
+.list-item a:focus {
 	background-color: var(--accent-color);
 	border-radius: 50%;
 }
-.list-item a:hover svg {
+.list-item a:hover svg,
+.list-item a:focus svg {
 	fill: white;
 }
 
