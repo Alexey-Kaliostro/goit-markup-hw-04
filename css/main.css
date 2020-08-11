@@ -291,7 +291,6 @@ h3.overlay {
 }
 .our-team {
 	padding-bottom: 94px;
-	outline: 1px solid red;
 }
 .team {
 	display: flex;
@@ -391,15 +390,23 @@ footer a {
 	color: var(--main-txt-color);
 }
 
-.filters button:focus,
-.filters button:hover {
+/*.filters-list button:hover {
+	background-color: var(--accent-color);
+	color: var(--over-txt-color);
+	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+	border-radius: 4px;
+}*/
+.filters-list button:hover,
+.filters-list button:focus {
 	background-color: var(--accent-color);
 	color: var(--over-txt-color);
 	box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 	border-radius: 4px;
 }
-
-.portfolio h3 {
+/*.filters-list button:hover {
+	background-color: var(--accent-color);
+}*/
+.filter button .portfolio h3 {
 	font-weight: bold;
 	font-size: 18px;
 	line-height: 2;
@@ -479,7 +486,6 @@ footer a {
 	margin-left: auto;
 	margin-right: auto;
 	/*background-color: salmon;*/
-	outline: 2px solid tomato;
 }
 .head {
 	height: 80px;
@@ -492,7 +498,6 @@ footer a {
 }
 
 .main-nav li {
-	outline: 2px solid green;
 	margin-right: 50px;
 }
 .main-nav li:last-child {
