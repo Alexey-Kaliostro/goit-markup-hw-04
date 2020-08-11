@@ -590,10 +590,10 @@ footer a {
 	fill: var(--accent-color);
 	border-color: var(--accent-color);
 }*/
-/*.customer-svg:hover {
+.customer-svg:hover {
 	color: var(--accent-color);
 	border-color: var(--accent-color);
-}*/
+}
 .customer-svg:focus {
 	outline: none;
 }
